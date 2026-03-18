@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Boletas - E.A.M.Se.P</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header (idéntico al de index.html) -->
+  <header class="site-header">
+    <div class="header-overlay">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="assets/img/icons/logo ente.jpg" alt="Logo EAMSEP" class="logo">
+          <div class="title-block">
+            <h1>E.A.M.Se.P</h1>
+            <p class="subtitle">Ente Autárquico Municipal De Servicios Publicos</p>
+          </div>
+        </div>
+
+       
+  </header>
+
+  <!-- Contenido principal: maqueta de la página de boletas -->
+  <main class="site-main" id="content">
+    <div class="container" style="max-width:980px;margin:2rem auto;padding:1rem;">
+      <h1 class="page-title">Descargar Boletas</h1>
+
+      <!-- Sección de búsqueda -->
+      <section class="boletas-search-section" aria-labelledby="buscar-boletas">
+        <h2 id="buscar-boletas" class="section-title">Buscar boletas</h2>
+
+        <form id="searchForm" class="boletas-search" onsubmit="return false;" aria-label="Formulario de búsqueda de boletas">
+          <div class="form-row" style="display:flex;gap:.6rem;flex-wrap:wrap;">
+            <label for="nombre" class="sr-only">Nombre completo</label>
+            <input id="nombre" name="nombre" type="text" required placeholder="Nombre y apellido" aria-label="Nombre completo" />
+
+            <label for="cuenta" class="sr-only">Número de cuenta</label>
+            <input id="cuenta" name="cuenta" type="text" required placeholder="Número de cuenta" aria-label="Número de cuenta" />
+
+            <button id="searchBtn" class="button" type="button">Buscar</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Contenedor de resultados (vacío en la maqueta) -->
+      <section class="boletas-results-section" aria-labelledby="resultados-boletas" style="margin-top:1rem;">
+        <h2 id="resultados-boletas" class="section-title visually-hidden">Resultados</h2>
+        <div id="results" class="boletas-results" aria-live="polite">
+          <!-- Estado inicial -->
+          <div class="msg">Ingresá nombre y número de cuenta y presioná Buscar.</div>
+
+          <!-- Ejemplo de estructura de resultado (descomentar para maquetar estilos)
+          <div class="boleta-item">
+            <div class="boleta-meta">
+              <strong>Febrero 2026</strong>
+              <span>10/03/2026 — $1.100,00</span>
+            </div>
+            <div class="boleta-actions">
+              <a class="button" href="#" target="_blank" rel="noopener">Descargar PDF</a>
+              <a class="button secondary" href="#" target="_blank" rel="noopener">Ver</a>
+            </div>
+          </div>
+          -->
+        </div>
+      </section>
+
+      <!-- Información legal / contacto -->
+      <section class="boletas-info" style="margin-top:1rem;">
+        <p class="note">Los datos personales se usan únicamente para localizar boletas. Si necesitás ayuda, contactanos al <strong>02942-422366/421182</strong>.</p>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer (idéntico al de index.html) -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 EAMSEP - Todos los derechos reservados</p>
+    </div>
+  </footer>
+</body>
+</html>
