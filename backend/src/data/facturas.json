@@ -1,0 +1,60 @@
+[
+  {
+    "id": "B000103511192",
+    "cuenta": 13501,
+    "titular": {
+      "nombre": "Vallejos Aníbal",
+      "direccion": "Av. del Maestro N° 296",
+      "barrio": "C. Final",
+      "sector": "2"
+    },
+    "periodo": "01-2026",
+    "fecha_emision": "2026-02-23",
+    "vencimiento": "2026-03-10",
+    "medidor": {
+      "numero": "T502725",
+      "lectura_actual": 207,
+      "lectura_anterior": 207,
+      "consumo_m3": 0,
+      "tipo": "R1"
+    },
+    "cargos": {
+      "fondo_obras": 13070.71,
+      "fondo_equipamiento": 650.35,
+      "intereses": 4369.24
+    },
+    "total": 18090.00,
+    "codigo_pago_electronico": "0013501",
+    "codigo_barras": "2200018090002606900000000135010000000007",
+    "pdf_url": "/pdfs/B000103511192.pdf"
+  },
+  {
+    "id": "B000103511193",
+    "cuenta": 13502,
+    "titular": {
+      "nombre": "García María",
+      "direccion": "San Martín 123",
+      "barrio": "Centro",
+      "sector": "1"
+    },
+    "periodo": "01-2026",
+    "fecha_emision": "2026-02-23",
+    "vencimiento": "2026-03-10",
+    "medidor": {
+      "numero": "T502726",
+      "lectura_actual": 350,
+      "lectura_anterior": 300,
+      "consumo_m3": 50,
+      "tipo": "R1"
+    },
+    "cargos": {
+      "fondo_obras": 8000.00,
+      "fondo_equipamiento": 400.00,
+      "intereses": 1200.00
+    },
+    "total": 9600.00,
+    "codigo_pago_electronico": "0013502",
+    "codigo_barras": "2200096000026069000000000135020000000008",
+    "pdf_url": "/pdfs/B000103511193.pdf"
+  }
+]
