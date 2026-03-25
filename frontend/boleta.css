@@ -1,0 +1,44 @@
+.boleta {
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.boleta-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.boleta-header .logo {
+  height: 50px;
+}
+
+.boleta-info p {
+  margin: 5px 0;
+}
+
+.boleta-detalle table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.boleta-detalle th, .boleta-detalle td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.boleta-total {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: right;
+}

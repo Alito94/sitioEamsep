@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Factura</title>
+  <link rel="stylesheet" href="boleta.css"> <!-- Ajustá la ruta si está en otra carpeta -->
+</head>
+<body>
+  <div id="factura-container"></div>
+
+  <script>
+    const factura = JSON.parse(localStorage.getItem('facturaSeleccionada'));
+    if (factura) {
+      document.getElementById('factura-container').innerHTML = `
+        <div class="boleta">
+          <div class="boleta-header">
+            <h2>Factura N° ${factura.id}</h2>
+            <img src="assets/img/icons/logo ente.jpg" alt="Logo EAMSEP" class="logo">
+          </div>
+
+          <div class="boleta-info">
+            <p><strong>Titular:</strong> ${factura.titular.nombre}</p>
+            <p><strong>Dirección:</strong> ${factura.titular.direccion}</p>
+            <p><strong>Cuenta:</strong> ${factura.cuenta}</p>
+            <p><strong>Periodo:</strong> ${factura.periodo}</p>
+            <p><strong>Fecha emisión:</strong> ${factura.fecha_emision}</p>
+            <p><strong>Vencimiento:</strong> ${factura.vencimiento}</p>
+          </div>
+
+          <div class="boleta-detalle">
+            <table>
+              <thead>
+                <tr>
+                  <th>Concepto</th>
+                  <th>Monto</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Fondo obras</td><td>$${factura.cargos.fondo_obras}</td></tr>
+                <tr><td>Fondo equipamiento</td><td>$${factura.cargos.fondo_equipamiento}</td></tr>
+                <tr><td>Intereses</td><td>$${factura.cargos.intereses}</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="boleta-total">
+            Total: $${factura.total}
+          </div>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

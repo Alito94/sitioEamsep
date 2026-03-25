@@ -1,60 +1,144 @@
 [
   {
     "id": "B000103511192",
-    "cuenta": 13501,
-    "titular": {
-      "nombre": "Vallejos Aníbal",
-      "direccion": "Av. del Maestro N° 296",
-      "barrio": "C. Final",
-      "sector": "2"
-    },
+    "titular": { "nombre": "Vallejos Aníbal", "direccion": "Av. del Maestro N° 296" },
+    "cuenta": "13501",
     "periodo": "01-2026",
     "fecha_emision": "2026-02-23",
     "vencimiento": "2026-03-10",
-    "medidor": {
-      "numero": "T502725",
-      "lectura_actual": 207,
-      "lectura_anterior": 207,
-      "consumo_m3": 0,
-      "tipo": "R1"
-    },
-    "cargos": {
-      "fondo_obras": 13070.71,
-      "fondo_equipamiento": 650.35,
-      "intereses": 4369.24
-    },
-    "total": 18090.00,
-    "codigo_pago_electronico": "0013501",
-    "codigo_barras": "2200018090002606900000000135010000000007",
-    "pdf_url": "/pdfs/B000103511192.pdf"
+    "cargos": { "fondo_obras": 13070.71, "fondo_equipamiento": 650.35, "intereses": 4369.24 },
+    "total": 18090
   },
   {
     "id": "B000103511193",
-    "cuenta": 13502,
-    "titular": {
-      "nombre": "García María",
-      "direccion": "San Martín 123",
-      "barrio": "Centro",
-      "sector": "1"
-    },
+    "titular": { "nombre": "Vallejos Aníbal", "direccion": "Av. del Maestro N° 296" },
+    "cuenta": "13501",
+    "periodo": "02-2026",
+    "fecha_emision": "2026-03-23",
+    "vencimiento": "2026-04-10",
+    "cargos": { "fondo_obras": 12800.50, "fondo_equipamiento": 640.00, "intereses": 4100.00 },
+    "total": 17540.50
+  },
+  {
+    "id": "B000103511194",
+    "titular": { "nombre": "Vallejos Aníbal", "direccion": "Av. del Maestro N° 296" },
+    "cuenta": "13501",
+    "periodo": "03-2026",
+    "fecha_emision": "2026-04-23",
+    "vencimiento": "2026-05-10",
+    "cargos": { "fondo_obras": 12950.00, "fondo_equipamiento": 645.00, "intereses": 4200.00 },
+    "total": 17795.00
+  },
+  {
+    "id": "B000103511195",
+    "titular": { "nombre": "Vallejos Aníbal", "direccion": "Av. del Maestro N° 296" },
+    "cuenta": "13501",
+    "periodo": "04-2026",
+    "fecha_emision": "2026-05-23",
+    "vencimiento": "2026-06-10",
+    "cargos": { "fondo_obras": 13100.00, "fondo_equipamiento": 655.00, "intereses": 4300.00 },
+    "total": 18055.00
+  },
+  {
+    "id": "B000103511196",
+    "titular": { "nombre": "Vallejos Aníbal", "direccion": "Av. del Maestro N° 296" },
+    "cuenta": "13501",
+    "periodo": "05-2026",
+    "fecha_emision": "2026-06-23",
+    "vencimiento": "2026-07-10",
+    "cargos": { "fondo_obras": 13200.00, "fondo_equipamiento": 660.00, "intereses": 4400.00 },
+    "total": 18260.00
+  },
+
+  {
+    "id": "B000203511197",
+    "titular": { "nombre": "García María", "direccion": "San Martín N° 120" },
+    "cuenta": "24602",
     "periodo": "01-2026",
-    "fecha_emision": "2026-02-23",
-    "vencimiento": "2026-03-10",
-    "medidor": {
-      "numero": "T502726",
-      "lectura_actual": 350,
-      "lectura_anterior": 300,
-      "consumo_m3": 50,
-      "tipo": "R1"
-    },
-    "cargos": {
-      "fondo_obras": 8000.00,
-      "fondo_equipamiento": 400.00,
-      "intereses": 1200.00
-    },
-    "total": 9600.00,
-    "codigo_pago_electronico": "0013502",
-    "codigo_barras": "2200096000026069000000000135020000000008",
-    "pdf_url": "/pdfs/B000103511193.pdf"
+    "fecha_emision": "2026-02-20",
+    "vencimiento": "2026-03-05",
+    "cargos": { "fondo_obras": 9800.00, "fondo_equipamiento": 500.00, "intereses": 2500.00 },
+    "total": 12800.00
+  },
+  {
+    "id": "B000203511198",
+    "titular": { "nombre": "García María", "direccion": "San Martín N° 120" },
+    "cuenta": "24602",
+    "periodo": "02-2026",
+    "fecha_emision": "2026-03-20",
+    "vencimiento": "2026-04-05",
+    "cargos": { "fondo_obras": 10200.00, "fondo_equipamiento": 520.00, "intereses": 2600.00 },
+    "total": 13320.00
+  },
+  {
+    "id": "B000203511199",
+    "titular": { "nombre": "García María", "direccion": "San Martín N° 120" },
+    "cuenta": "24602",
+    "periodo": "03-2026",
+    "fecha_emision": "2026-04-20",
+    "vencimiento": "2026-05-05",
+    "cargos": { "fondo_obras": 10400.00, "fondo_equipamiento": 530.00, "intereses": 2700.00 },
+    "total": 13630.00
+  },
+  {
+    "id": "B000203511200",
+    "titular": { "nombre": "García María", "direccion": "San Martín N° 120" },
+    "cuenta": "24602",
+    "periodo": "04-2026",
+    "fecha_emision": "2026-05-20",
+    "vencimiento": "2026-06-05",
+    "cargos": { "fondo_obras": 10600.00, "fondo_equipamiento": 540.00, "intereses": 2800.00 },
+    "total": 13940.00
+  },
+  {
+    "id": "B000203511201",
+    "titular": { "nombre": "García María", "direccion": "San Martín N° 120" },
+    "cuenta": "24602",
+    "periodo": "05-2026",
+    "fecha_emision": "2026-06-20",
+    "vencimiento": "2026-07-05",
+    "cargos": { "fondo_obras": 10800.00, "fondo_equipamiento": 550.00, "intereses": 2900.00 },
+    "total": 14250.00
+  },
+
+  {
+    "id": "B000303511202",
+    "titular": { "nombre": "Pérez Juan", "direccion": "Belgrano N° 45" },
+    "cuenta": "35703",
+    "periodo": "01-2026",
+    "fecha_emision": "2026-02-15",
+    "vencimiento": "2026-03-01",
+    "cargos": { "fondo_obras": 7500.00, "fondo_equipamiento": 400.00, "intereses": 1800.00 },
+    "total": 9700.00
+  },
+  {
+    "id": "B000303511203",
+    "titular": { "nombre": "Pérez Juan", "direccion": "Belgrano N° 45" },
+    "cuenta": "35703",
+    "periodo": "02-2026",
+    "fecha_emision": "2026-03-15",
+    "vencimiento": "2026-04-01",
+    "cargos": { "fondo_obras": 7700.00, "fondo_equipamiento": 410.00, "intereses": 1850.00 },
+    "total": 9960.00
+  },
+  {
+    "id": "B000303511204",
+    "titular": { "nombre": "Pérez Juan", "direccion": "Belgrano N° 45" },
+    "cuenta": "35703",
+    "periodo": "03-2026",
+    "fecha_emision": "2026-04-15",
+    "vencimiento": "2026-05-01",
+    "cargos": { "fondo_obras": 7900.00, "fondo_equipamiento": 420.00, "intereses": 1900.00 },
+    "total": 10220.00
+  },
+  {
+    "id": "B000303511205",
+    "titular": { "nombre": "Pérez Juan", "direccion": "Belgrano N° 45" },
+    "cuenta": "35703",
+    "periodo": "04-2026",
+    "fecha_emision": "2026-05-15",
+    "vencimiento": "2026-06-01",
+    "cargos": { "fondo_obras": 8100.00, "fondo_equipamiento": 430.00, "intereses": 1950.00 },
+    "total": 10480.00
   }
 ]
